@@ -62,102 +62,83 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-.main-parent {
-    width: 975px;
-}
 nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	margin: auto;
+	width: 876px;
 }
 
 nav a {
 	text-decoration: none;
 	color: grey;
-    padding: 25px;
+	padding: 25px;
 }
 
 nav .logo {
 	padding-left: 50px;
 }
 
-hr {
-    display: flex;
-    border-top: 1px solid black;
-    width: 955px;
-    margin-left: 20px;
-    justify-items: center;
+header {
+	line-height: 0.75;
+	margin: 50px 0px 50px 100px;
+	width: 876px;
+	display: flex;
+	align-items: center;
+
 }
 
-.services-header-img {
-    
-    margin: 20px;
-    width: 975px;
+header .title {
+	font-size: 68px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 70px;
+	
 }
 
-.services-title {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px;
-    width: 975px;
+header .title button {
+	border: 1px solid black;
+	margin-top: 0px;
+	padding: 6px 40px;
 }
 
-.service-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px;
-    justify-content: space-between;
-    width: 975px;
+.top-content {
+	width: 876px;
+	display: flex;
+}
+.top-content div {
+
+	flex-wrap: wrap;
+	padding: 10px;
+	justify-content: flex-start;
+	width: 48%;
 }
 
-.service-boxes div {
-    display: flex;
-    flex-wrap: wrap;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    padding: 20px;
-    width: 46%;
-    background-color: rgb(248, 248, 248);
-    margin: 15px;
-    justify-content: space-around;
-}
-
-button {
-        padding: 5px;
-        padding-left: 25px;
-        padding-right: 25px;
-        border-radius: 5px;
-        margin-top: 20px;
-    }
-    
-h2 {
-    font-size: 12px;
-}
-
-p {
-font-size: 12px;
-line-height: 15px;
+.middle-img {
+	margin: 30px 0px;
 }
 
 .bottom-content {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    width: 975px;
-    height: auto;
-    justify-content: space-between;
+	width: 876px;
+	display: flex;
 }
 
-.facts {
-    width: 46%;
+.bottom-content div {
+	
+	width: 33%;
+	padding: 10px;
 }
 
-.facts li {
-    line-height: 20px;
+.contact {
+	margin-top: 30px;
+}
+
+body { /* centers the website */
+	width: 876px;
+	margin: 0 auto;
 }
 
 footer {
-    text-align: center;
+	margin-top: 50px;
+	text-align: center;
 }
